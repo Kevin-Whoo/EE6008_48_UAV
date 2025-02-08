@@ -1,0 +1,55 @@
+EarlyStopping: Training stopped early as no improvement observed in last 20 epochs. Best results observed at epoch 45, best model saved as best.pt.
+To update EarlyStopping(patience=20) pass a new patience value, i.e. `patience=300` or use `patience=0` to disable EarlyStopping.
+
+65 epochs completed in 5.646 hours.
+Optimizer stripped from runs/detect/train3/weights/last.pt, 114.4MB
+Optimizer stripped from runs/detect/train3/weights/best.pt, 114.4MB
+
+Validating runs/detect/train3/weights/best.pt...
+Ultralytics 8.3.64 🚀 Python-3.10.16 torch-2.5.1+cu124 CUDA:0 (NVIDIA A100-SXM4-40GB, 40514MiB)
+                                                       CUDA:1 (NVIDIA A100-SXM4-40GB, 40514MiB)
+                                                       CUDA:2 (NVIDIA A100-SXM4-40GB, 40514MiB)
+                                                       CUDA:3 (NVIDIA A100-SXM4-40GB, 40514MiB)
+YOLO11x summary (fused): 464 layers, 56,838,574 parameters, 0 gradients, 194.5 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|                         Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   6%|▌                        Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  11%|█                        Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  17%|█▋                       Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  22%|██▏                      Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  28%|██▊                      Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  33%|███▎                     Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  39%|███▉                     Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  44%|████▍                    Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████                    Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  56%|█████▌                   Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  61%|██████                   Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  67%|██████▋                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  72%|███████▏                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  78%|███████▊                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  83%|████████                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  94%|████████                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|████████                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 18/18 [00:16<00:00,  1.09it/s]
+                   all        548      38759      0.621      0.529      0.555      0.354
+            pedestrian        520       8844      0.659      0.568       0.62      0.323
+                people        482       5125      0.694      0.407      0.494      0.215
+               bicycle        364       1287       0.51      0.312       0.33      0.172
+                   car        515      14064      0.804      0.851       0.88       0.66
+                   van        421       1975      0.576      0.613        0.6      0.446
+                 truck        266        750      0.607      0.515       0.54      0.389
+              tricycle        337       1045      0.576       0.43       0.45      0.277
+       awning-tricycle        220        532      0.385      0.303      0.275      0.177
+                   bus        131        251      0.747      0.721      0.741      0.561
+                 motor        485       4886      0.651      0.576      0.619      0.319
+Speed: 0.1ms preprocess, 12.1ms inference, 0.0ms loss, 1.9ms postprocess per image
+Results saved to runs/detect/train3
+💡 Learn more at https://docs.ultralytics.com/modes/train
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-02-07 23:39:13.459270:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 9374445.pbs101
+	Project: personal-khu005
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(128), Used(128)
+	CPU Time Used: 475:55:23
+	Memory: Requested(880gb), Used(53842732kb)
+	Vmem Used: 37133068kb
+	Walltime: Requested(12:00:00), Used(05:40:10)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (x1000c0s3b0n0:ncpus=64:ngpus=4:mem=461373440kb)+(x1000c1s2b0n1:ncpus=64:ngpus=4:mem=461373440kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 5.67hrs
+	GPU Power Consumed: 176.36W
+	GPU Max GPU Memory Used: 158.2GB
+	Memory Throughput Rate (Average): x1000c0s3b0n0:(gpu1:11%+gpu3:10%+gpu0:12%+gpu2:11%)+x1000c1s2b0n1:(gpu1:0%+gpu3:0%+gpu0:0%+gpu2:0%)
+	Memory Throughput Rate (Max): x1000c0s3b0n0:(gpu1:72%+gpu3:71%+gpu0:72%+gpu2:71%)+x1000c1s2b0n1:(gpu1:0%+gpu3:0%+gpu0:0%+gpu2:0%)
+	Memory Throughput Rate (Min): x1000c0s3b0n0:(gpu1:0%+gpu3:0%+gpu0:0%+gpu2:0%)+x1000c1s2b0n1:(gpu1:0%+gpu3:0%+gpu0:0%+gpu2:0%)
+	GPU SM Utilization (Average): x1000c0s3b0n0:(gpu1:37%+gpu3:40%+gpu0:30%+gpu2:39%)+x1000c1s2b0n1:(gpu1:0%+gpu3:0%+gpu0:0%+gpu2:0%)
+	GPU SM Utilization (Max): x1000c0s3b0n0:(gpu1:100%+gpu3:100%+gpu0:100%+gpu2:100%)+x1000c1s2b0n1:(gpu1:0%+gpu3:0%+gpu0:0%+gpu2:0%)
+	GPU SM Utilization (Min): x1000c0s3b0n0:(gpu1:0%+gpu3:0%+gpu0:0%+gpu2:0%)+x1000c1s2b0n1:(gpu1:0%+gpu3:0%+gpu0:0%+gpu2:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle

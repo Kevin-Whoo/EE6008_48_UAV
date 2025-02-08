@@ -1,0 +1,29 @@
+#!/bin/bash
+#PBS -N EE6008 
+# Job name
+#PBS -l select=2:ncpus=16:ngpus=4:mem=64GB  
+# Request 16 CPUs, 8 GPUs, 64GB RAM
+#PBS -l walltime=12:00:00  
+# Max runtime of 12 hours
+#PBS -q normal  
+# Submit to normal queue
+#PBS -P personal-khu005  
+# Your project ID
+#PBS -j oe  
+# Join STDOUT and STDERR into one file
+#PBS -o khu005_train_yolo11x_out_2.txt
+# Load necessary modules
+module load miniforge3
+
+# Change to job submission directory
+cd $PBS_O_WORKDIR || exit $?
+
+# Activate virtual environment (if using Conda or venv)
+conda activate EE6008
+
+# Train YOLO on 2 GPUs
+yolo detect train model=yolo11x.pt data=VisDrone.yaml batch=64 epochs=100 device=0,1,2,3 imgsz=640
+
+# Alternative for PyTorch YOLO:
+# python -m ultralytics train model=yolov8n.pt data=dataset.yaml epochs=100 device=0,1
+

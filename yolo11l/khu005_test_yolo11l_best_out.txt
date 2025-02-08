@@ -1,0 +1,50 @@
+Ultralytics 8.3.64 🚀 Python-3.10.16 torch-2.5.1+cu124 CUDA:0 (NVIDIA A100-SXM4-40GB, 40514MiB)
+                                                       CUDA:1 (NVIDIA A100-SXM4-40GB, 40514MiB)
+                                                       CUDA:2 (NVIDIA A100-SXM4-40GB, 40514MiB)
+                                                       CUDA:3 (NVIDIA A100-SXM4-40GB, 40514MiB)
+YOLO11l summary (fused): 464 layers, 25,287,022 parameters, 0 gradients, 86.6 GFLOPs
+[34m[1mval: [0mScanning /scratch/users/ntu/khu005/project/datasets/VisDrone/VisDrone2019-DET-test-dev/labels.cache... 1610 images, 0 backgrounds, 0 corrupt: 100%|██████████| 1610/1610 [00:00<?, ?it/s][34m[1mval: [0mScanning /scratch/users/ntu/khu005/project/datasets/VisDrone/VisDrone2019-DET-test-dev/labels.cache... 1610 images, 0 backgrounds, 0 corrupt: 100%|██████████| 1610/1610 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/26 [00:00<?, ?it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   4%|▍         | 1/26 [00:00<00:24,  1.01it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   8%|▊         | 2/26 [00:02<00:32,  1.36s/it]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  12%|█▏        | 3/26 [00:05<00:44,  1.93s/it]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  15%|█▌        | 4/26 [00:06<00:37,  1.69s/it]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  19%|█▉        | 5/26 [00:06<00:25,  1.22s/it]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  23%|██▎       | 6/26 [00:07<00:19,  1.04it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  27%|██▋       | 7/26 [00:07<00:15,  1.25it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  31%|███       | 8/26 [00:08<00:13,  1.34it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  35%|███▍      | 9/26 [00:08<00:10,  1.56it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  38%|███▊      | 10/26 [00:09<00:09,  1.74it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  42%|████▏     | 11/26 [00:09<00:07,  1.93it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  46%|████▌     | 12/26 [00:10<00:06,  2.11it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 13/26 [00:10<00:05,  2.23it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  54%|█████▍    | 14/26 [00:10<00:05,  2.35it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  58%|█████▊    | 15/26 [00:11<00:04,  2.43it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  62%|██████▏   | 16/26 [00:11<00:04,  2.41it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  65%|██████▌   | 17/26 [00:12<00:03,  2.45it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  69%|██████▉   | 18/26 [00:12<00:03,  2.50it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  73%|███████▎  | 19/26 [00:12<00:02,  2.47it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  77%|███████▋  | 20/26 [00:13<00:02,  2.44it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  81%|████████  | 21/26 [00:13<00:02,  2.43it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  85%|████████▍ | 22/26 [00:14<00:01,  2.31it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  88%|████████▊ | 23/26 [00:14<00:01,  2.01it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  92%|█████████▏| 24/26 [00:15<00:01,  1.95it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  96%|█████████▌| 25/26 [00:15<00:00,  2.01it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 26/26 [00:15<00:00,  2.61it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 26/26 [00:15<00:00,  1.63it/s]
+                   all       1610      75102       0.51      0.391      0.377      0.227
+            pedestrian       1197      21006      0.558      0.323      0.344      0.146
+                people        797       6376      0.569      0.143      0.187     0.0696
+               bicycle        377       1302      0.263       0.21      0.143     0.0611
+                   car       1530      28074      0.749      0.752      0.766      0.511
+                   van       1168       5771      0.486      0.437      0.415      0.286
+                 truck        750       2659      0.536      0.493      0.481      0.323
+              tricycle        245        530      0.311      0.355      0.245      0.136
+       awning-tricycle        233        599      0.392       0.25      0.213       0.13
+                   bus        838       2940      0.752      0.547       0.61      0.447
+                 motor        794       5845      0.483      0.404      0.365      0.156
+Speed: 0.1ms preprocess, 4.0ms inference, 0.0ms loss, 0.8ms postprocess per image
+Results saved to [1mruns/detect/val3[0m
+💡 Learn more at https://docs.ultralytics.com/modes/val
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-02-06 18:02:16.592221:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 9367478.pbs101
+	Project: personal-khu005
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(128), Used(128)
+	CPU Time Used: 00:01:01
+	Memory: Requested(880gb), Used(2969968kb)
+	Vmem Used: 276024556kb
+	Walltime: Requested(12:00:00), Used(00:00:39)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (x1000c0s4b0n1:ncpus=64:ngpus=4:mem=461373440kb)+(x1000c0s6b0n0:ncpus=64:ngpus=4:mem=461373440kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 42.24secs
+	GPU Power Consumed: 109.58000000000001W
+	GPU Max GPU Memory Used: 10.62GB
+	Memory Throughput Rate (Average): x1000c0s4b0n1:(gpu1:0%+gpu3:0%+gpu0:9%+gpu2:0%)+x1000c0s6b0n0:(gpu1:0%+gpu3:0%+gpu0:0%+gpu2:0%)
+	Memory Throughput Rate (Max): x1000c0s4b0n1:(gpu1:0%+gpu3:0%+gpu0:35%+gpu2:0%)+x1000c0s6b0n0:(gpu1:0%+gpu3:0%+gpu0:0%+gpu2:0%)
+	Memory Throughput Rate (Min): x1000c0s4b0n1:(gpu1:0%+gpu3:0%+gpu0:0%+gpu2:0%)+x1000c0s6b0n0:(gpu1:0%+gpu3:0%+gpu0:0%+gpu2:0%)
+	GPU SM Utilization (Average): x1000c0s4b0n1:(gpu1:0%+gpu3:0%+gpu0:17%+gpu2:0%)+x1000c0s6b0n0:(gpu1:0%+gpu3:0%+gpu0:0%+gpu2:0%)
+	GPU SM Utilization (Max): x1000c0s4b0n1:(gpu1:0%+gpu3:0%+gpu0:68%+gpu2:0%)+x1000c0s6b0n0:(gpu1:0%+gpu3:0%+gpu0:0%+gpu2:0%)
+	GPU SM Utilization (Min): x1000c0s4b0n1:(gpu1:0%+gpu3:0%+gpu0:0%+gpu2:0%)+x1000c0s6b0n0:(gpu1:0%+gpu3:0%+gpu0:0%+gpu2:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
