@@ -1,0 +1,6 @@
+YOLO11 model,mAP,mAP50
+yolo11nano,16.1,28.2
+yolo11small,19.1,32.7
+yolo11middle,21.9,36.8
+yolo11large,22.7,37.7
+yolo11xtra,23.7,39
