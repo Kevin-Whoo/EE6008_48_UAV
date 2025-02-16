@@ -4,3 +4,6 @@ yolo11small,19.1,32.7
 yolo11middle,21.9,36.8
 yolo11large,22.7,37.7
 yolo11xtra,23.7,39
+yolo11xtra+1920+100,30.9,49.9
+yolo11xtra+1920+150,31.3,50.3
+yolo11xtra+1920+0.001+100,33.3,53.9
