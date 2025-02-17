@@ -2,7 +2,7 @@ The final fine-tuned yolo11x based on VisDrone-DET is stored in google drive: [*
 
 Testing results of our fine-tuned yolo11x model:
 
-| Class              | Images | Instances | Box(P) | R    | mAP50 | mAP50-95 |
+| Class              | Images | Instances | P | R    | mAP50 | mAP50-95 |
 |--------------------|--------|-----------|--------|------|-------|----------|
 | all               | 1610   | 75102     | 0.613  | 0.54 | 0.539 | 0.333    |
 | pedestrian        | 1197   | 21006     | 0.693  | 0.53 | 0.577 | 0.264    |
